@@ -200,6 +200,20 @@ svg * {
     scroll-behavior: auto !important;
   }
 }
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(../fonts/SpaceGrotesk-Medium.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   --color-accent: #b9ff66;
   --color-grey: #f3f3f3;
@@ -220,4 +234,8 @@ svg * {
   --input-height: 59px;
   --button-height: 68px;
   --transition-duration: 0.2s;
+}
+
+.container {
+  max-width: calc(var(--container-width));
 }/*# sourceMappingURL=style.css.map */
