@@ -9,10 +9,11 @@ body {
 }
 
 a,
-buttom,
+button,
 input,
 textarea,
 svg * {
+    background-color: inherit;
     transition-duration: var(--transition-duration);
 }
 
