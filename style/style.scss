@@ -6,7 +6,11 @@
 'utils',
 'globals';
 
-@import './blocks/button',
+@import 
+'./blocks/field',
+'./blocks/radio',
+'./blocks/radios',
+'./blocks/button',
 './blocks/grid',
 './blocks/burger-button',
 './blocks/header',
@@ -24,4 +28,5 @@
 './blocks/_team-card.scss',
 './blocks/_pagination.scss',
 './blocks/_rewiew-card.scss',
-'./blocks/_rewiews.scss'
+'./blocks/_rewiews.scss',
+'./blocks/_contact-us.scss'
